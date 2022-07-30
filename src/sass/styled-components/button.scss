@@ -3,17 +3,47 @@
 .wl-btn {
   background: transparent;
   border: none;
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 .wl-btn--primary {
   font-family: $ff-primary;
   padding: 20px 110px;
-  border: 2px solid $gold;
   color: $gold;
   font-size: 2.1rem;
   transition: all 0.3s ease-in-out;
   &:hover {
     background: $gold;
     color: $white;
-    cursor: pointer;
+  }
+}
+.wl-btn--navigation {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  // -------------------
+  padding: 20px 20px;
+  // -------------------
+  font-family: $ff-secondary;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $white;
+  // -------------------
+  transition: all 0.3s ease-in-out;
+  svg {
+    transition: inherit;
+  }
+  &:hover svg {
+    transform: translateX(10px);
+    // margin-left: 10px;
+    // gap: 30px;
   }
 }

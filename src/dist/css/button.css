@@ -3,10 +3,13 @@
   border: none;
 }
 
+.wl-btn:hover {
+  cursor: pointer;
+}
+
 .wl-btn--primary {
   font-family: "Merriweather", serif;
   padding: 20px 110px;
-  border: 2px solid #d1c5b7;
   color: #d1c5b7;
   font-size: 2.1rem;
   -webkit-transition: all 0.3s ease-in-out;
@@ -16,6 +19,40 @@
 .wl-btn--primary:hover {
   background: #d1c5b7;
   color: #fff;
-  cursor: pointer;
+}
+
+.wl-btn--navigation {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+  padding: 20px 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.wl-btn--navigation svg {
+  -webkit-transition: inherit;
+  transition: inherit;
+}
+
+.wl-btn--navigation:hover svg {
+  -webkit-transform: translateX(10px);
+          transform: translateX(10px);
 }
 /*# sourceMappingURL=button.css.map */
