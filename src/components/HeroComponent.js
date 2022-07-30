@@ -12,7 +12,7 @@ export default function HeroComponent() {
       <div className="hero-container">
         <div className="hero-content">
           <h3 className="pre-heading">LONDON COLLECTION SEASON</h3>
-          <h1 className="heading">
+          <h1 className="wl-title wl-title--white text-center">
             New Selection Of <br /> Henry London
           </h1>
           <p className="sub-heading">
