@@ -4,6 +4,7 @@ import React from "react";
 import HeroComponent from "../components/HeroComponent";
 import DescriptionComponent from "../components/DescriptionComponent";
 import ImgSideComponent from "../components/ImgSideComponent";
+import InstagramBannerComponent from "../components/InstagramBannerComponent";
 
 export default function HomePage() {
   return (
@@ -11,6 +12,7 @@ export default function HomePage() {
       <HeroComponent />
       <DescriptionComponent />
       <ImgSideComponent />
+      <InstagramBannerComponent />
     </div>
   );
 }

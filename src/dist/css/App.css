@@ -169,6 +169,114 @@
      object-fit: cover;
 }
 
+.instagram-cover {
+  background-color: #f5f5f5;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.instagram-cover img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.instagram-cover-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(36, 36, 36, 0.5);
+}
+
+.instagram-cover-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.instagram-post {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.instagram-post img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.instagram-post-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+}
+
+.instagram-post-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  z-index: 1;
+}
+
+.instagram-post-content h5 {
+  margin: 0;
+}
+
+.instagram-post:hover img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.instagram-post:hover .instagram-post-overlay {
+  background-color: rgba(36, 36, 36, 0.5);
+}
+
+.instagram-post:hover .instagram-post-content {
+  opacity: 1;
+}
+
 .wl-btn {
   background: transparent;
   border: none;
@@ -280,6 +388,10 @@
 
 .text-left {
   text-align: left;
+}
+
+.text-color-white {
+  color: #fff;
 }
 
 .container {
