@@ -10,6 +10,28 @@
   color: $white;
 }
 
+.wl-title--small {
+  font-size: 5.3rem;
+}
+
+.wl-pretitle {
+  font-family: $ff-secondary;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 3.6rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+}
+
+.wl-text {
+  font-family: $ff-primary;
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: $gray-text;
+  line-height: 2em;
+  letter-spacing: 0.01em;
+}
+
 // ============== ALIGNMENTS ======================
 .text-center {
   text-align: center;

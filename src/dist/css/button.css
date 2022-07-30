@@ -1,6 +1,8 @@
 .wl-btn {
   background: transparent;
   border: none;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .wl-btn:hover {
