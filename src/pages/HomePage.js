@@ -1,5 +1,12 @@
 import React from "react";
 
+// components
+import HeroComponent from "../components/HeroComponent";
+
 export default function HomePage() {
-  return <div className="title">HomePage</div>;
+  return (
+    <div>
+      <HeroComponent />
+    </div>
+  );
 }
