@@ -14,6 +14,7 @@
   font-size: 2.1rem;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+  border: 2px solid #d1c5b7;
 }
 
 .wl-btn--primary:hover {
@@ -25,7 +26,7 @@
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 200px;
+  width: 160px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -36,7 +37,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   gap: 20px;
-  padding: 20px 20px;
+  padding: 20px 10px;
   font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
@@ -44,6 +45,13 @@
   color: #fff;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
+}
+
+.wl-btn--navigation span {
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  color: inherit;
 }
 
 .wl-btn--navigation svg {

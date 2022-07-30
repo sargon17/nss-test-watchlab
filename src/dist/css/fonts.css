@@ -1,0 +1,23 @@
+.wl-title {
+  font-family: "Miller Display", serif;
+  font-size: 8rem;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.wl-title--white {
+  color: #fff;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+/*# sourceMappingURL=fonts.css.map */

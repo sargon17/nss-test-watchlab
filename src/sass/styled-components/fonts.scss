@@ -1,0 +1,22 @@
+@import "../styles.scss";
+
+.wl-title {
+  font-family: $ff-accent;
+  font-size: 8rem;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+.wl-title--white {
+  color: $white;
+}
+
+// ============== ALIGNMENTS ======================
+.text-center {
+  text-align: center;
+}
+.text-right {
+  text-align: right;
+}
+.text-left {
+  text-align: left;
+}
