@@ -1,0 +1,17 @@
+@import "../styles";
+
+.wl-input {
+  height: 100%;
+  border: 2px solid $white;
+  padding: 20px;
+  font-family: $ff-primary;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: $white;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  &:focus {
+    outline: none;
+    border-bottom: 2px solid $gold;
+  }
+}
