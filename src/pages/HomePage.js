@@ -6,6 +6,7 @@ import DescriptionComponent from "../components/DescriptionComponent";
 import ImgSideComponent from "../components/ImgSideComponent";
 import InstagramBannerComponent from "../components/InstagramBannerComponent";
 import MailBannerComponent from "../components/MailBannerComponent";
+import FooterComponent from "../components/FooterComponent";
 
 export default function HomePage() {
   return (
@@ -15,6 +16,7 @@ export default function HomePage() {
       <ImgSideComponent />
       <InstagramBannerComponent />
       <MailBannerComponent />
+      <FooterComponent />
     </div>
   );
 }

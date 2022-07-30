@@ -330,6 +330,89 @@
   gap: 20px;
 }
 
+.footer-container {
+  background: #333333;
+  padding: 100px 90px;
+}
+
+.footer-logo {
+  margin-bottom: 60px;
+}
+
+.footer-logo a {
+  color: #fff;
+  font-size: 3.4rem;
+  text-decoration: none;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 20px;
+}
+
+.footer-navigation ul {
+  margin-right: 80px;
+  list-style: none;
+}
+
+.footer-navigation ul * {
+  color: #d1c5b7;
+  font-size: 1.6rem;
+  text-decoration: none;
+  font-family: "Miller Display", serif;
+  line-height: 4rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.footer-navigation ul .mail-link {
+  text-decoration: underline;
+}
+
+.footer-navigation ul .social-link a {
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.24rem;
+  font-weight: 700;
+}
+
+.footer-navigation ul :hover a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.bottom-footer {
+  background-color: #2f2f2f;
+  padding: 20px 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bottom-footer p,
+.bottom-footer * {
+  color: #d1c5b7;
+  font-size: 1.4rem;
+  font-family: "Merriweather", serif;
+  text-decoration: none;
+}
+
 .wl-btn {
   background: transparent;
   border: none;
@@ -422,13 +505,10 @@
   font-weight: 700;
   color: #fff;
   background: transparent;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
 }
 
 .wl-input:focus {
-  outline: none;
-  border-bottom: 2px solid #d1c5b7;
+  outline: 2px solid rgba(255, 255, 255, 0.542);
 }
 
 .wl-title {

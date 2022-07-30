@@ -9,9 +9,8 @@
   font-weight: 700;
   color: $white;
   background: transparent;
-  transition: all 0.3s ease-in-out;
+  //   transition: all 0.3s ease-in-out;
   &:focus {
-    outline: none;
-    border-bottom: 2px solid $gold;
+    outline: 2px solid rgba(255, 255, 255, 0.542);
   }
 }

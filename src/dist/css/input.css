@@ -7,12 +7,9 @@
   font-weight: 700;
   color: #fff;
   background: transparent;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
 }
 
 .wl-input:focus {
-  outline: none;
-  border-bottom: 2px solid #d1c5b7;
+  outline: 2px solid rgba(255, 255, 255, 0.542);
 }
 /*# sourceMappingURL=input.css.map */
