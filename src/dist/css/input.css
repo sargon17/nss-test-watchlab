@@ -1,0 +1,18 @@
+.wl-input {
+  height: 100%;
+  border: 2px solid #fff;
+  padding: 20px;
+  font-family: "Merriweather", serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #fff;
+  background: transparent;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.wl-input:focus {
+  outline: none;
+  border-bottom: 2px solid #d1c5b7;
+}
+/*# sourceMappingURL=input.css.map */

@@ -24,6 +24,21 @@
   color: #fff;
 }
 
+.wl-btn--small {
+  padding: 20px 20px;
+  font-size: 1.6rem;
+}
+
+.wl-btn--primary--white {
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.wl-btn--primary--white:hover {
+  background: #fff;
+  color: #d1c5b7;
+}
+
 .wl-btn--navigation {
   position: absolute;
   right: 0;

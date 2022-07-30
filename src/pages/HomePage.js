@@ -5,6 +5,7 @@ import HeroComponent from "../components/HeroComponent";
 import DescriptionComponent from "../components/DescriptionComponent";
 import ImgSideComponent from "../components/ImgSideComponent";
 import InstagramBannerComponent from "../components/InstagramBannerComponent";
+import MailBannerComponent from "../components/MailBannerComponent";
 
 export default function HomePage() {
   return (
@@ -13,6 +14,7 @@ export default function HomePage() {
       <DescriptionComponent />
       <ImgSideComponent />
       <InstagramBannerComponent />
+      <MailBannerComponent />
     </div>
   );
 }
