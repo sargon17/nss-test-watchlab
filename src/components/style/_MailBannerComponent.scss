@@ -1,0 +1,39 @@
+.mail {
+  &-container {
+    max-height: 320px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: -80px;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .mail-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(214, 193, 170, 0.7);
+    }
+    .mail-content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .mail-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+      }
+    }
+  }
+}
