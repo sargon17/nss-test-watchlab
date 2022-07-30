@@ -1,5 +1,23 @@
-.title {
-  font-size: 1.5rem;
+// text styles
+.pre-heading {
+  font-size: 1.6rem;
   font-weight: bold;
-  color: #333;
+  margin-bottom: 6rem;
+  color: $white;
+  font-family: $ff-secondary;
+  letter-spacing: 0.24em;
+}
+.heading {
+  font-family: $ff-accent;
+  font-size: 8rem;
+  font-weight: 500;
+  color: $white;
+  margin-bottom: 2.5rem;
+}
+.sub-heading {
+  font-family: $ff-secondary;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: $white;
+  margin-bottom: 6rem;
 }

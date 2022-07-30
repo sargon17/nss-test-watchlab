@@ -1,0 +1,19 @@
+@import "../styles";
+
+.wl-btn {
+  background: transparent;
+  border: none;
+}
+.wl-btn--primary {
+  font-family: $ff-primary;
+  padding: 20px 110px;
+  border: 2px solid $gold;
+  color: $gold;
+  font-size: 2.1rem;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    background: $gold;
+    color: $white;
+    cursor: pointer;
+  }
+}

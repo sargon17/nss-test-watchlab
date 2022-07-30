@@ -1,0 +1,88 @@
+.hero {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  &-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0px 70px;
+  }
+  &-background {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: -1;
+    background: $gray-medium;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(29, 21, 23, 0.3);
+    }
+  }
+  &-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+  }
+
+  &-blog-link {
+    position: absolute;
+    bottom: 0%;
+    right: 70px;
+    width: 25vw;
+    aspect-ratio: 1.4/1;
+    overflow: hidden;
+    padding: 20px;
+    &-bg {
+      background: url("../../assets/imgs/watch_man_1.jpg") no-repeat center;
+      background-size: 110%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      transition: all 900ms ease-in-out;
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(29, 21, 23, 0.3);
+      }
+    }
+    &:hover {
+      cursor: pointer;
+    }
+    &:hover .hero-blog-link-bg {
+      transform: scale(1.1);
+      // background-size: 110%;
+    }
+    .hero-blog-link--title {
+      font-size: 2.1rem;
+      font-family: $ff-primary;
+      color: $white;
+      font-weight: 400;
+      max-width: 60%;
+      z-index: 1;
+    }
+  }
+}

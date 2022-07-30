@@ -1,0 +1,21 @@
+.wl-btn {
+  background: transparent;
+  border: none;
+}
+
+.wl-btn--primary {
+  font-family: "Merriweather", serif;
+  padding: 20px 110px;
+  border: 2px solid #d1c5b7;
+  color: #d1c5b7;
+  font-size: 2.1rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.wl-btn--primary:hover {
+  background: #d1c5b7;
+  color: #fff;
+  cursor: pointer;
+}
+/*# sourceMappingURL=button.css.map */
