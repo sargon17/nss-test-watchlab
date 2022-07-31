@@ -9,6 +9,11 @@
   cursor: pointer;
 }
 
+.wl-btn:active {
+  -webkit-transition: all 10ms ease-in-out;
+  transition: all 10ms ease-in-out;
+}
+
 .wl-btn--primary {
   font-family: "Merriweather", serif;
   padding: 20px 110px;
@@ -24,6 +29,10 @@
   color: #fff;
 }
 
+.wl-btn--primary:active {
+  background: #c2b8ab;
+}
+
 .wl-btn--small {
   padding: 20px 20px;
   font-size: 1.6rem;
@@ -37,6 +46,10 @@
 .wl-btn--primary--white:hover {
   background: #fff;
   color: #d1c5b7;
+}
+
+.wl-btn--primary--white:active {
+  background: #f8f8f8;
 }
 
 .wl-btn--navigation {
@@ -79,5 +92,35 @@
 .wl-btn--navigation:hover svg {
   -webkit-transform: translateX(10px);
           transform: translateX(10px);
+}
+
+.wl-btn-icon {
+  width: 40px;
+  height: 40px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border-radius: 50%;
+}
+
+.wl-btn-icon:hover {
+  background: #f8f8f8;
+}
+
+.wl-btn-icon:active {
+  background: #eeeeee;
+}
+
+.wl-btn-icon--transparent {
+  background: transparent;
+  color: #d1c5b7;
+}
+
+.wl-btn-icon--transparent:hover {
+  background: #d1c5b7;
+  color: #fff;
+}
+
+.wl-btn-icon--transparent:active {
+  background: #c2b8ab;
 }
 /*# sourceMappingURL=button.css.map */

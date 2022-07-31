@@ -12,4 +12,29 @@
 .wl-input:focus {
   outline: 2px solid rgba(255, 255, 255, 0.542);
 }
+
+.wl-input-underline {
+  border: none;
+  border-bottom: 1px solid #2f2f2f;
+  font-size: 1.4rem;
+  font-family: "Merriweather", serif;
+  caret-color: #d1c5b7;
+  background: transparent;
+}
+
+.wl-input-underline:focus {
+  outline: none;
+  border-bottom: 1px solid #d1c5b7;
+}
+
+.wl-input-underline--transparent {
+  background: transparent;
+  color: #d1c5b7;
+  border-bottom: 1px solid #d1c5b7;
+}
+
+.wl-input-underline--transparent:focus {
+  outline: none;
+  border-bottom: 1px solid #d1c5b7;
+}
 /*# sourceMappingURL=input.css.map */

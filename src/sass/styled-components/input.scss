@@ -14,3 +14,27 @@
     outline: 2px solid rgba(255, 255, 255, 0.542);
   }
 }
+
+.wl-input-underline {
+  border: none;
+  border-bottom: 1px solid $grey-dark;
+  font-size: 1.4rem;
+  font-family: $ff-primary;
+  caret-color: $gold;
+  background: transparent;
+
+  &:focus {
+    outline: none;
+    border-bottom: 1px solid $gold;
+  }
+
+  &--transparent {
+    background: transparent;
+    color: $gold;
+    border-bottom: 1px solid $gold;
+    &:focus {
+      outline: none;
+      border-bottom: 1px solid $gold;
+    }
+  }
+}
