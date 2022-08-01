@@ -20,6 +20,8 @@
   font-family: "Merriweather", serif;
   caret-color: #d1c5b7;
   background: transparent;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .wl-input-underline:focus {

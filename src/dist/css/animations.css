@@ -1,0 +1,66 @@
+.invisible.invisible.invisible.invisible {
+  opacity: 0;
+}
+
+.scroll-to-right {
+  -webkit-animation: scrollToRight 0.8s ease-in-out;
+          animation: scrollToRight 0.8s ease-in-out;
+}
+
+.scroll-to-left {
+  -webkit-animation: scrollToLeft 0.8s ease-in-out;
+          animation: scrollToLeft 0.8s ease-in-out;
+}
+
+@-webkit-keyframes scrollToRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes scrollToRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes scrollToLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes scrollToLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+/*# sourceMappingURL=animations.css.map */

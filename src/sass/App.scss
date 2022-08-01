@@ -9,6 +9,7 @@
 @import "../components/style/HeroComponent";
 @import "../components/style/DescriptionComponent";
 @import "../components/style/ImgSideComponent";
+@import "../components/style/PressComponent";
 @import "../components/style/InstagramBannerComponent";
 @import "../components/style/MailBannerComponent";
 @import "../components/style/FooterComponent";
@@ -18,6 +19,9 @@
 @import "./styled-components/input";
 @import "./styled-components/fonts";
 @import "./styled-components/layout";
+
+// animations
+@import "./animations";
 
 *,
 html,
