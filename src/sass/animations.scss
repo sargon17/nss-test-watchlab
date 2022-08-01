@@ -1,0 +1,32 @@
+.invisible.invisible.invisible.invisible {
+  opacity: 0;
+}
+
+.scroll-to-right {
+  animation: scrollToRight 0.8s ease-in-out;
+}
+.scroll-to-left {
+  animation: scrollToLeft 0.8s ease-in-out;
+}
+
+@keyframes scrollToRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scrollToLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
