@@ -1,0 +1,32 @@
+@import "../../sass/styles.scss";
+
+.press {
+  .press__title {
+    p {
+      max-width: 60%;
+    }
+  }
+  .press__slider {
+    background: $grey-light;
+    width: 100%;
+    aspect-ratio: 1;
+    position: relative;
+
+    .press__slider--container {
+      position: absolute;
+      top: 30%;
+      right: 0;
+      gap: 20px;
+      width: 130%;
+      height: 100%;
+      overflow: hidden;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+
+      .wl-pretitle {
+        margin-bottom: 5px;
+      }
+    }
+  }
+}
