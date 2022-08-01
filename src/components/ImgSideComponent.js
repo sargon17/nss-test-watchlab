@@ -1,9 +1,16 @@
 import temporaryStore from "../assets/imgs/Temporary Store.jpg";
 import newCollection from "../assets/imgs/watch_man_2.jpg";
 
+import { useInView } from "react-cool-inview";
+
 export default function ImgSideComponent() {
+  const { observe, inView } = useInView({
+    unobserveOnEnter: true,
+    rootMargin: "-400px 0px",
+  });
+
   return (
-    <div className="container">
+    <div className="container" ref={observe}>
       <div className="img-side-container grid">
         <div className="img-side-content-wrapper">
           <div className="img-side-content text-center">
@@ -19,12 +26,25 @@ export default function ImgSideComponent() {
             <a className="wl-btn wl-btn--primary">View</a>
           </div>
         </div>
-        <div className="img-side-photo">
+        <div
+          // Animation on visibility
+          className={
+            inView
+              ? "img-side-photo scroll-to-left"
+              : "img-side-photo invisible"
+          }
+        >
           <img src={temporaryStore} alt="hero-background" />
         </div>
       </div>
       <div className="img-side-container grid">
-        <div className="img-side-photo">
+        <div
+          className={
+            inView
+              ? "img-side-photo scroll-to-right"
+              : "img-side-photo invisible"
+          }
+        >
           <img src={newCollection} alt="hero-background" />
         </div>
         <div className="img-side-content-wrapper">
