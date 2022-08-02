@@ -4,7 +4,7 @@ export default function InstagramBannerComponent() {
 
   return (
     <div className="container">
-      <div className="instagram-container grid">
+      <div className="instagram-container grid flex-lg flex-column">
         <div className="instagram-cover">
           <img src={coverPost.img} alt="instagram-cover" />
           <div className="instagram-cover-overlay"></div>

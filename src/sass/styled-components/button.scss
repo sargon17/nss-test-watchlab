@@ -15,7 +15,7 @@
 }
 .wl-btn--primary {
   font-family: $ff-primary;
-  padding: 20px 110px;
+  padding: 2rem 11rem;
   color: $gold;
   font-size: 2.1rem;
   transition: all 0.3s ease-in-out;
@@ -26,6 +26,14 @@
   }
   &:active {
     background: $gold-dark;
+  }
+  @media (max-width: $bp-md) {
+    font-size: 1.8rem;
+    padding: 1.5rem 8rem;
+  }
+  @media (max-width: $bp-sm) {
+    font-size: 1.4rem;
+    padding: 1.5rem 6rem;
   }
 }
 .wl-btn--small {

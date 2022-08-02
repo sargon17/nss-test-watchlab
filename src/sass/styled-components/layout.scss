@@ -1,11 +1,137 @@
+@import "../styles";
 .container {
   max-width: 1400px;
   margin: 80px auto;
   padding: 0 20px;
+
+  @media screen and (max-width: $bp-md) {
+    padding: 0;
+  }
+}
+@media screen and (max-width: $bp-md) {
+  .mobile-container {
+    padding: 0 20px;
+  }
+}
+.margin-0 {
+  margin: 0;
 }
 
 // ============== GRID ======================
 .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+@media (max-width: $bp-sm) {
+  .grid-x2-sm {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: $bp-md) {
+  .grid-x2-md {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: $bp-lg) {
+  .grid-x2-lg {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: $bp-xl) {
+  .grid-x2-xl {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+// ============== flex ======================
+.flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.align-center {
+  align-items: center;
+}
+.align-end {
+  align-items: flex-end;
+}
+.align-base {
+  align-items: baseline;
+}
+.align-stretch {
+  align-items: stretch;
+}
+.align-start {
+  align-items: flex-start;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-row {
+  flex-direction: row;
+}
+@media (max-width: $bp-sm) {
+  .flex-sm {
+    display: flex;
+  }
+}
+@media (max-width: $bp-md) {
+  .flex-md {
+    display: flex;
+  }
+}
+@media (max-width: $bp-lg) {
+  .flex-lg {
+    display: flex;
+  }
+}
+@media (max-width: $bp-xl) {
+  .flex-xl {
+    display: flex;
+  }
+}
+
+// ============== DISPLAY ======================
+.d-none {
+  display: none;
+}
+@media (max-width: $bp-sm) {
+  .d-none-sm {
+    display: none;
+  }
+}
+@media (max-width: $bp-md) {
+  .d-none-md {
+    display: none;
+  }
+}
+@media (max-width: $bp-lg) {
+  .d-none-lg {
+    display: none;
+  }
+}
+@media (max-width: $bp-xl) {
+  .d-none-xl {
+    display: none;
+  }
+}
+
+// ============== ORDERS ======================
+@media (min-width: $bp-lg) {
+  .order-lg-1 {
+    order: 1;
+  }
+  .order-lg-2 {
+    order: 2;
+  }
 }

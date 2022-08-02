@@ -9,16 +9,18 @@ export default function PressComponent() {
 
   return (
     <div className="container" ref={observe}>
-      <div className="press grid">
+      <div className="press grid flex-lg flex-column">
         <div
           className={
-            inView ? "press__title scroll-to-right" : "press__title invisible"
+            inView
+              ? "press__title mobile-container scroll-to-right"
+              : "press__title invisible"
           }
         >
-          <h2 class="wl-title ">
-            Press from <br /> Watch Lab Studio{" "}
+          <h2 className="wl-title ">
+            Press from <br /> Watch Lab Studio
           </h2>
-          <p class="wl-text">
+          <p className="wl-text">
             On the other hand, we denounce with righteous indigation and dislike
             men who are so beguiled and demoralized by the charms of pleasure of
             the moment, so blinded by desire{" "}
@@ -31,7 +33,7 @@ export default function PressComponent() {
         >
           <div className="press__slider--container">
             <img src={CoverImg} width="400px" />
-            <div class="press__slider--content">
+            <div className="press__slider--content">
               <h5 className="wl-pretitle">press</h5>
               <h6 className="wl-pretitle text-color-gold">18 settembre 2015</h6>
               <h2 className="wl-title wl-title--small">

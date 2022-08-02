@@ -16,7 +16,7 @@
 
 .wl-btn--primary {
   font-family: "Merriweather", serif;
-  padding: 20px 110px;
+  padding: 2rem 11rem;
   color: #d1c5b7;
   font-size: 2.1rem;
   -webkit-transition: all 0.3s ease-in-out;
@@ -31,6 +31,20 @@
 
 .wl-btn--primary:active {
   background: #c2b8ab;
+}
+
+@media (max-width: 768px) {
+  .wl-btn--primary {
+    font-size: 1.8rem;
+    padding: 1.5rem 8rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .wl-btn--primary {
+    font-size: 1.4rem;
+    padding: 1.5rem 6rem;
+  }
 }
 
 .wl-btn--small {

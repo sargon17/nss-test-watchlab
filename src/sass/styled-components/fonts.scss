@@ -4,7 +4,20 @@
   font-family: $ff-accent;
   font-size: 8rem;
   font-weight: 500;
-  margin-bottom: 25px;
+  margin-bottom: 2.5rem;
+
+  @media (max-width: $bp-xl) {
+    font-size: 6rem;
+  }
+
+  @media (max-width: $bp-md) {
+    font-size: 5rem;
+    margin-bottom: 1.8rem;
+  }
+  @media (max-width: $bp-sm) {
+    font-size: 3.9rem;
+    margin-bottom: 1.2rem;
+  }
 }
 .wl-title--white {
   color: $white;
@@ -12,6 +25,15 @@
 
 .wl-title--small {
   font-size: 5.3rem;
+  @media (max-width: $bp-xl) {
+    font-size: 4.6rem;
+  }
+  @media (max-width: $bp-md) {
+    font-size: 4.2rem;
+  }
+  @media (max-width: $bp-sm) {
+    font-size: 3.5rem;
+  }
 }
 
 .wl-pretitle {
@@ -21,15 +43,46 @@
   margin-bottom: 3.6rem;
   letter-spacing: 0.24em;
   text-transform: uppercase;
+
+  @media (max-width: $bp-xl) {
+    font-size: 1.4rem;
+  }
+
+  @media (max-width: $bp-md) {
+    font-size: 1.2rem;
+  }
+
+  &--white {
+    color: $white;
+  }
+}
+.sub-title {
+  font-family: $ff-secondary;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: $white;
+  margin-bottom: 6rem;
+
+  @media (max-width: $bp-md) {
+    font-size: 1.2rem;
+  }
 }
 
 .wl-text {
   font-family: $ff-primary;
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: 400;
   color: $grey-text;
   line-height: 2em;
   letter-spacing: 0.01em;
+
+  @media (max-width: $bp-xl) {
+    font-size: 1.8rem;
+  }
+
+  @media (max-width: $bp-md) {
+    font-size: 1.4rem;
+  }
 }
 
 // ============== ALIGNMENTS ======================

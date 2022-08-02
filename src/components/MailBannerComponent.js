@@ -4,8 +4,8 @@ export default function MailBannerComponent() {
   return (
     <div className="container">
       <div className="mail-container">
-        <div className="mail-overlay"></div>
         <img src={Mail} alt="mail" />
+        <div className="mail-overlay"></div>
         <div className="mail-content text-center">
           <div>
             <h1 className="wl-title wl-title-small text-color-white">

@@ -2,12 +2,12 @@ import React from "react";
 
 export default function DescriptionComponent() {
   return (
-    <div className="container">
+    <div className="container mobile-container">
       <div className="desc-container">
         <h1 className="wl-title">
           History and <br /> Patriarcal season
         </h1>
-        <div className="desc-content grid">
+        <div className="desc-content grid flex-lg flex-column">
           <p className="wl-text">
             On the other hand, we denounce with righteous indigation and dislike
             men who are so beguiled and demoralized by the charms of pleasure of

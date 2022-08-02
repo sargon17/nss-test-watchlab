@@ -11,11 +11,13 @@ export default function HeroComponent() {
       </div>
       <div className="hero-container">
         <div className="hero-content">
-          <h3 className="pre-heading">LONDON COLLECTION SEASON</h3>
+          <h3 className="wl-pretitle wl-pretitle--white">
+            LONDON COLLECTION SEASON
+          </h3>
           <h1 className="wl-title wl-title--white text-center">
             New Selection Of <br /> Henry London
           </h1>
-          <p className="sub-heading">
+          <p className="sub-title">
             An estimable experience in the modern collection house
           </p>
           <button className="wl-btn wl-btn--primary"> Discover </button>

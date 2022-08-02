@@ -4,6 +4,9 @@
   .press__title {
     p {
       max-width: 60%;
+      @media (max-width: $bp-lg) {
+        max-width: 100%;
+      }
     }
   }
   .press__slider {
@@ -26,6 +29,19 @@
 
       .wl-pretitle {
         margin-bottom: 5px;
+      }
+      @media screen and (max-width: $bp-lg) {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: unset;
+        width: 100%;
+        padding: 20px;
+
+        img {
+          // order: 2;
+          width: 80%;
+        }
       }
     }
   }

@@ -1,7 +1,13 @@
 .footer {
+  @media (max-width: $bp-md) {
+    margin-bottom: -80px !important;
+  }
   &-container {
     background: $grey-medium;
     padding: 100px 90px;
+    @media (max-width: $bp-md) {
+      padding: 50px 20px;
+    }
   }
   &-logo {
     margin-bottom: 60px;
@@ -17,9 +23,15 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    flex-wrap: wrap;
+
+    @media (max-width: $bp-md) {
+      flex-direction: column;
+    }
 
     gap: 20px;
     ul {
+      flex-grow: 1;
       //   width: 200px;
       margin-right: 80px;
       list-style: none;
@@ -57,6 +69,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media screen and (max-width: $bp-md) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
 
   p,
   * {

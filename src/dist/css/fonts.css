@@ -2,7 +2,27 @@
   font-family: "Miller Display", serif;
   font-size: 8rem;
   font-weight: 500;
-  margin-bottom: 25px;
+  margin-bottom: 2.5rem;
+}
+
+@media (max-width: 1200px) {
+  .wl-title {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .wl-title {
+    font-size: 5rem;
+    margin-bottom: 1.8rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .wl-title {
+    font-size: 3.9rem;
+    margin-bottom: 1.2rem;
+  }
 }
 
 .wl-title--white {
@@ -11,6 +31,24 @@
 
 .wl-title--small {
   font-size: 5.3rem;
+}
+
+@media (max-width: 1200px) {
+  .wl-title--small {
+    font-size: 4.6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .wl-title--small {
+    font-size: 4.2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .wl-title--small {
+    font-size: 3.5rem;
+  }
 }
 
 .wl-pretitle {
@@ -22,13 +60,55 @@
   text-transform: uppercase;
 }
 
+@media (max-width: 1200px) {
+  .wl-pretitle {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .wl-pretitle {
+    font-size: 1.2rem;
+  }
+}
+
+.wl-pretitle--white {
+  color: #fff;
+}
+
+.sub-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 6rem;
+}
+
+@media (max-width: 768px) {
+  .sub-title {
+    font-size: 1.2rem;
+  }
+}
+
 .wl-text {
   font-family: "Merriweather", serif;
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: 400;
   color: #8c8c8c;
   line-height: 2em;
   letter-spacing: 0.01em;
+}
+
+@media (max-width: 1200px) {
+  .wl-text {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .wl-text {
+    font-size: 1.4rem;
+  }
 }
 
 .text-center {

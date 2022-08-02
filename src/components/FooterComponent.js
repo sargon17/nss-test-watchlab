@@ -1,6 +1,6 @@
 export default function FooterComponent() {
   return (
-    <div className="container">
+    <div className="container footer">
       <footer className="footer-container">
         <div className="footer-logo">
           <a href="#">WATCH/LAB</a>

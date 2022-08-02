@@ -1,38 +1,55 @@
 .mail {
   &-container {
-    max-height: 320px;
+    padding: 20px 0px;
     overflow: hidden;
     position: relative;
     margin-bottom: -80px;
+    max-width: 100vw;
+    max-height: 450px;
+    height: 50vh;
 
     img {
       width: 100%;
       height: 100%;
       object-fit: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 0;
     }
     .mail-overlay {
+      max-width: 100vw;
       position: absolute;
       top: 0;
       left: 0;
       width: 100%;
       height: 100%;
       background-color: rgba(214, 193, 170, 0.7);
+      z-index: 1;
     }
     .mail-content {
-      position: absolute;
-      top: 0;
-      left: 0;
+      max-width: 100vw;
       width: 100%;
       height: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
+      z-index: 2;
+      position: absolute;
+      top: 0;
+      left: 0;
+      padding: 20px;
 
       .mail-form {
+        max-width: 100vw;
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 20px;
+
+        input {
+          width: 100%;
+        }
       }
     }
   }

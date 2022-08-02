@@ -11,8 +11,18 @@ export default function ImgSideComponent() {
 
   return (
     <div className="container" ref={observe}>
-      <div className="img-side-container grid">
-        <div className="img-side-content-wrapper">
+      <div className="img-side-container grid flex-lg flex-column ">
+        <div
+          // Animation on visibility
+          className={
+            inView
+              ? "img-side-photo scroll-to-left order-lg-2"
+              : "img-side-photo invisible"
+          }
+        >
+          <img src={temporaryStore} alt="hero-background" />
+        </div>
+        <div className="img-side-content-wrapper order-lg-1">
           <div className="img-side-content text-center">
             <h5 className="wl-pretitle">london collection season</h5>
             <h2 className="wl-title wl-title--small text-center">
@@ -26,18 +36,8 @@ export default function ImgSideComponent() {
             <a className="wl-btn wl-btn--primary">View</a>
           </div>
         </div>
-        <div
-          // Animation on visibility
-          className={
-            inView
-              ? "img-side-photo scroll-to-left"
-              : "img-side-photo invisible"
-          }
-        >
-          <img src={temporaryStore} alt="hero-background" />
-        </div>
       </div>
-      <div className="img-side-container grid">
+      <div className="img-side-container grid flex-lg flex-column">
         <div
           className={
             inView
