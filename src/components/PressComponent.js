@@ -1,6 +1,6 @@
 import CoverImg from "../assets/imgs/watch_manufactort.jpg";
 import Mail from "../assets/imgs/Store-2.jpg";
-import Watch3 from "../assets/imgs/London-skyline.jpg";
+import Watch3 from "../assets/imgs/Insta-5.jpg";
 
 import { useInView } from "react-cool-inview";
 
