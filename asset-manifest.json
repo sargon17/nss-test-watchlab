@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/nss-test-watchlab/static/css/main.e9ad2b2f.css",
+    "main.js": "/nss-test-watchlab/static/js/main.37e4d4ff.js",
+    "static/media/London-skyline.jpg": "/nss-test-watchlab/static/media/London-skyline.9da293bbb235ea6224b7.jpg",
+    "static/media/Store-2.jpg": "/nss-test-watchlab/static/media/Store-2.600321b105a4b8a551dc.jpg",
+    "static/media/Temporary Store.jpg": "/nss-test-watchlab/static/media/Temporary Store.abff4aaab0eb92f412b7.jpg",
+    "static/media/watch_man_1.jpg": "/nss-test-watchlab/static/media/watch_man_1.ee16f8ff65aa73340c5a.jpg",
+    "static/media/watch_man_2.jpg": "/nss-test-watchlab/static/media/watch_man_2.27e2955c2fa8c0daa9e9.jpg",
+    "static/media/Insta-4.jpg": "/nss-test-watchlab/static/media/Insta-4.6ccea52771480c0101ed.jpg",
+    "static/media/Insta-2.jpg": "/nss-test-watchlab/static/media/Insta-2.8a345f900634e9eb60cb.jpg",
+    "static/media/Insta-5.jpg": "/nss-test-watchlab/static/media/Insta-5.2be8baea11c6fb16a1fc.jpg",
+    "static/media/watch_manufactort.jpg": "/nss-test-watchlab/static/media/watch_manufactort.4c48f9cb639acec0c2d7.jpg",
+    "static/media/Insta-1.jpg": "/nss-test-watchlab/static/media/Insta-1.23906ab60ebe21f286b4.jpg",
+    "static/media/Insta-3.jpg": "/nss-test-watchlab/static/media/Insta-3.c8ad1254251185ba603d.jpg",
+    "index.html": "/nss-test-watchlab/index.html",
+    "main.e9ad2b2f.css.map": "/nss-test-watchlab/static/css/main.e9ad2b2f.css.map",
+    "main.37e4d4ff.js.map": "/nss-test-watchlab/static/js/main.37e4d4ff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e9ad2b2f.css",
+    "static/js/main.37e4d4ff.js"
+  ]
+}
