@@ -38,9 +38,29 @@
         width: 100%;
         padding: 20px;
 
-        img {
-          // order: 2;
-          width: 80%;
+        .press__slider-img {
+          width: 100%;
+          aspect-ratio: 2/1;
+          overflow: hidden;
+          z-index: 0;
+
+          img {
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+          }
+        }
+        .press__slider-content {
+          margin: 20px;
+          padding: 0 20px;
+          width: 100%;
+
+          &-btns {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            gap: 20px;
+          }
         }
       }
     }
